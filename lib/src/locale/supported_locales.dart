@@ -1,3 +1,5 @@
+import 'package:jiffy/src/locale/locales/ur_locale.dart';
+
 import 'locale.dart';
 import 'locales/ar_locale.dart';
 import 'locales/cs_locale.dart';
@@ -80,6 +82,7 @@ Map<String, Locale> _supportedLocales = {
   'th': ThLocale(),
   'sk': SkLocale(),
   'cs': CsLocale(),
+  'ur': UrLocale(),
 };
 
 Locale getLocale(String locale) {
